@@ -1,5 +1,5 @@
 terraform {
-  source = "git::ssh://git@github.com:ebogdum/devcon-demo.git//v6/resources/aws/modules/s3_html_bucket?ref=v0.0.0"
+  source = "git::ssh://git@github.com:ebogdum/devcon-demo.git//v6/resources/aws/modules/s3_html_bucket?ref=v0.0.1"
 }
 
 include "root" {
